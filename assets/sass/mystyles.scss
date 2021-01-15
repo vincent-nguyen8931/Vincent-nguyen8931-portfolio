@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+// Set your brand colors
+$purple: #2F2FA2;
+$pink: #F64C72;
+$darkPurple: #242582;
+$darkPurpleGrey: #553D67;
+$grey: #99738E;
+
+// Update Bulma's global variables
+$family-code: "Open Sans", sans-serif;
+$title-color: white;
+$title-family: true;
+$text: white;
+$link: blue;
+
+
+// Update some of Bulma's component variables
+$body-background-color: $darkPurple;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+$section-title: white;
+
+// Import only what you need from Bulma
+@import "../node_modules/bulma/sass/utilities/_all.sass";
+@import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/elements/container.sass";
+@import "../node_modules/bulma/sass/elements/title.sass";
+@import "../node_modules/bulma/sass/form/_all.sass";
+@import "../node_modules/bulma/sass/components/navbar.sass";
+@import "../node_modules/bulma/sass/layout/hero.sass";
+@import "../node_modules/bulma/sass/layout/section.sass";
