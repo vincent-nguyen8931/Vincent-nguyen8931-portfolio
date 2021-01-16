@@ -15,7 +15,8 @@ $family-code: "Open Sans", sans-serif;
 $title-color: white;
 $title-family: true;
 $text: white;
-$link: blue;
+$link: $pink;
+$link-hover: $grey;
 
 
 // Update some of Bulma's component variables
@@ -23,7 +24,6 @@ $body-background-color: $darkPurple;
 $control-border-width: 2px;
 $input-border-color: transparent;
 $input-shadow: none;
-$section-title: white;
 
 // Import only what you need from Bulma
 @import "../node_modules/bulma/sass/utilities/_all.sass";
