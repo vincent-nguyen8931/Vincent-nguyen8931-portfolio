@@ -1,0 +1,14 @@
+/* For the links within the project boxes */
+#pwGenLive, 
+#pwGenGit, 
+#dayPlanLive,
+#dayPlanGit {
+  color: #242582;
+} 
+
+#pwGenLive:hover, 
+#pwGenGit:hover, 
+#dayPlanLive:hover, 
+#dayPlanGit:hover {
+  color: #99738E;
+}

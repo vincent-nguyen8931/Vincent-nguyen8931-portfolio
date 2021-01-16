@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +8,14 @@
 
   <!-- Bulma CDN -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
-
   <link rel="stylesheet" href="./assets/style.css">
+
+  <!-- Non Bulma CSS -->
+  <link rel="stylesheet" href="./assets/customStyle.css">
 </head>
+
 <body>
+  <!-- Header -->
   <section class="section">
     <div class="container">
       <h1 class="title">Vincent Nguyen</h1>
@@ -18,27 +23,61 @@
         Welcome to my portfolio!
       </h2>
       <div class="block">
-      <figure class="image is-128x128">
-        <img src="./assets/Self-image.jpg">
-      </figure>
+        <figure class="image is-128x128">
+          <img src="./assets/Self-image.jpg">
+        </figure>
+      </div>
+  </section>
+
+  <!-- Contact information -->
+  <section class="section">
+    <div class="container">
+      <ul>I can be reached at the following:
+        <li><br />E-mail: vincent.nguyen8931@gmail.com</li>
+        <li>Phone Number: 916-621-7354</li>
+        <li>GitHub: <a href="https://github.com/vincent-nguyen8931"> https://github.com/vincent-nguyen8931</a></li>
+        <li>LinkedIn: <a
+            href="https://www.linkedin.com/in/vincent-nguyen-74226a107/">https://www.linkedin.com/in/vincent-nguyen-74226a107/</a>
+        </li>
+        <li>Resume: <a href="assets\Vincent Nguyen Technical Skills Resume.docx" download>Download link</a></li>
+      </ul>
     </div>
-    
-    
+  </section>
+
+  <!-- Projects -->
+  <section class="section">
+    <div class="container">
+      <h2><strong>Projects</strong></h2>
+      <br />
+      <div class="box">
+          <strong>Password Generator</strong>
+          <br>
+          <figure class="image">
+            <img src="assets\Password-generator-image.png">
+          </figure>
+            <p>A password generator that creates a randomized password between 8 and 128 characters. <br />
+              Deployed site: <a href="https://vincent-nguyen8931.github.io/Password-generator/" id="pwGenLive">https://vincent-nguyen8931.github.io/Password-generator/</a> <br />
+              GitHub Repo: <a href="https://github.com/vincent-nguyen8931/Password-generator" id="pwGenGit">https://github.com/vincent-nguyen8931/Password-generator</a>
+            </p>
+      </div>
+    </div>
   </section>
 
   <section class="section">
     <div class="container">
-     <ul>I can be reached at the following:
-     <li><br />E-mail: vincent.nguyen8931@gmail.com</li>
-     <li>Phone Number: 916-621-7354</li>
-     <li>GitHub: <a href="https://github.com/vincent-nguyen8931"> https://github.com/vincent-nguyen8931</a></li>
-     <li>LinkedIn: <a href="https://www.linkedin.com/in/vincent-nguyen-74226a107/">https://www.linkedin.com/in/vincent-nguyen-74226a107/</a></li>
-     <li>Resume: <a href="assets\Vincent Nguyen Technical Skills Resume.docx" download>Download link</a></li>
-     </ul>
+      <div class="box">
+          <strong>Day Planner</strong>
+          <br>
+          <figure class="image">
+            <img src="assets\Day-planner-landing-page.png">
+          </figure>
+          <p>A work day planner that allows events to be input into every hour. Data stored on local storage. <br />
+            Deployed site: <a href="https://vincent-nguyen8931.github.io/Day-planner/" id="dayPlanLive">https://vincent-nguyen8931.github.io/Day-planner/</a> <br />
+            GitHub Repo: <a href="https://github.com/vincent-nguyen8931/Day-planner" id="dayPlanGit">https://github.com/vincent-nguyen8931/Day-planner</a>
+          </p>
+      </div>
     </div>
   </section>
-    
-  
-  
 </body>
+
 </html>
