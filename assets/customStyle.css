@@ -2,13 +2,17 @@
 #pwGenLive, 
 #pwGenGit, 
 #dayPlanLive,
-#dayPlanGit {
+#dayPlanGit,
+#tastyBurgerLive,
+#tastyBurgerGit {
   color: #242582;
 } 
 
 #pwGenLive:hover, 
 #pwGenGit:hover, 
 #dayPlanLive:hover, 
-#dayPlanGit:hover {
+#dayPlanGit:hover,
+#tastyBurgerLive:hover,
+#tastyBurgerGit:hover {
   color: #99738E;
 }
